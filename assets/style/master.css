@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+  background-color: #084c82;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /** Form **/
+}
+#main > * {
+  width: 30%;
+}
+#main > .card {
+  width: 30%;
+}
+@media screen and (max-width: 992px) {
+  #main > .card {
+    width: 50%;
+  }
+}
+#main > .card > div {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#03A9F4, #0288D1 90%);
+  box-shadow: 1px 5px 6px 0px black;
+  border-radius: 30px;
+  padding: 20px;
+}
+#main > .card > div > div:nth-of-type(1) {
+  margin: 50px 0;
+}
+#main > .card > div > div:nth-of-type(1) > h4 {
+  text-transform: uppercase;
+  color: rgb(240, 239, 239);
+  font-size: 12px;
+}
+#main > .card > div > div:nth-of-type(1) > div {
+  display: flex;
+}
+#main > .card > div > div:nth-of-type(1) > div > input {
+  width: 15%;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+#main > .card > div > div.bottom {
+  display: flex;
+  margin: 40px 0;
+}
+#main > .card > div > div.bottom h4 {
+  color: rgb(240, 239, 239);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+#main > .card > div > div.bottom input {
+  width: 60%;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+#main > .card > div > div.bottom .expires > div {
+  display: flex;
+  width: 25%;
+  color: white;
+}
+#main > .card > div > div.bottom .expires > div input {
+  margin-right: 15px;
+}
+#main > form {
+  width: 80%;
+  padding: 20px 50px;
+}
+#main > form > h2 {
+  color: white;
+}
+#main > form > div:nth-of-type(1) {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+#main > form > div:nth-of-type(1) > * {
+  width: 100%;
+}
+#main > form > div:nth-of-type(1) > label {
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+#main > form > div:nth-of-type(1) > input {
+  width: 40%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  font-size: 18px;
+  color: white;
+}
+#main > form > div:nth-of-type(2) {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+#main > form > div:nth-of-type(2) > * {
+  width: 100%;
+}
+#main > form > div:nth-of-type(2) > label {
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+#main > form > div:nth-of-type(2) > input {
+  width: 40%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  font-size: 18px;
+  color: white;
+}
+#main > form > section {
+  display: flex;
+  flex-wrap: wrap;
+}
+#main > form > section > * {
+  width: 50%;
+  height: 40px;
+}
+#main > form > section > div:nth-of-type(1) {
+  display: flex;
+  flex-wrap: wrap;
+}
+#main > form > section > div:nth-of-type(1) > * {
+  width: 100%;
+}
+#main > form > section > div:nth-of-type(1) > label {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+#main > form > section > div:nth-of-type(1) > input {
+  width: 10%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  font-size: 18px;
+  color: white;
+}
+#main > form > section > div:nth-of-type(2) {
+  display: flex;
+  flex-wrap: wrap;
+}
+#main > form > section > div:nth-of-type(2) > * {
+  width: 100%;
+}
+#main > form > section > div:nth-of-type(2) > label {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+#main > form > section > div:nth-of-type(2) > input {
+  width: 40%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  font-size: 18px;
+  color: white;
+}
+#main > form > button {
+  margin: 30px 0;
+  background-color: #89CB75;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=master.css.map */
